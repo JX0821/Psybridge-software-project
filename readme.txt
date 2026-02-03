@@ -1,3 +1,16 @@
+Psybridge - Mental Health Resource Management Tool
+Course Project | Leiden University | January 2025
+This is a group project completed by 6 second-year students at Leiden University for the Software Development course.
+
+Team Members (Group 8)
+
+David Xu Hu
+Jixuan Yao
+Joris Nouwens
+Jingbo Li
+Marit Paul
+Piotrek Lichota
+
 1.Overview
 1.1 This software is designed with the following components:
 
@@ -7,6 +20,22 @@ Doctor Interface: Allows doctors to manage their tasks and interact with the sys
 Scheduling System: Handles appointment and schedule management.
 Questionnaire Interface: Integrated within both the Patient Interface and Doctor Interface.
 
+1.2 Key Features
+
+Role-based login system (Patient/Doctor/Administrator)
+Appointment scheduling system
+Psychiatric questionnaire management (HCL-32, SDS scales)
+AI chatbot integration (ChatGPT-4.0) for patient support
+Secure data storage with SQLite database
+Email verification system
+
+1.3 Tech Stack
+
+Language: Python
+GUI: Tkinter
+Database: SQLite
+APIs: OpenAI API, LuckyColaAI (email service)
+Development: Git version control
 
 2. Contents
 2.1 This folder includes:
