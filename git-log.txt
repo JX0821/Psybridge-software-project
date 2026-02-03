@@ -1,0 +1,310 @@
+* 67e1002 - 2025-01-03 22:07 - Joris: Bug repaired - questionnaire could not be saved to databas..
+* 12559bd - 2024-12-31 23:15 - J. Li: Replace scheduling_system.py: move classes and functions o..
+* ab905bf - 2024-12-31 19:15 - Jixuan: 1. optimized the login system(tried to separate the front ..
+* 6e98103 - 2024-12-30 23:42 - Jixuan: Previously I connected the login system to the doctor inte..
+* 8fd73f5 - 2024-12-29 11:36 - Jixuan: Add more tests                                              
+* addcafd - 2024-12-29 01:29 - Jixuan: finished some tests                                         
+* 7a04d0d - 2024-12-28 17:00 - Jixuan: I have applied open ai key on patient interface             
+* c95dd0d - 2024-12-28 16:29 - Jixuan: overrite the patient interface by new doc in main branch a..
+* 015b008 - 2024-12-28 16:20 - Jixuan: login system is now connected with doctor, patient, and ad..
+* 144c265 - 2024-12-28 12:38 - Jixuan: two grey box tests have finished                            
+| * fc4b0b8 - 2025-01-02 13:36 - david: small details                                               
+| *   8cb964b - 2025-01-02 13:27 - david: unittests mostly done                                       
+| |\  
+| | * e1471e4 - 2024-12-31 21:40 - Jixuan: I have to little feedback for admin system                  
+| | * 900d756 - 2024-12-28 16:06 - Jixuan: need David's description ahead of the doc                   
+| | * ddb4063 - 2024-12-28 15:30 - Jixuan: Added head doc string, and still need David to fill his de..
+| * | b756590 - 2025-01-02 13:23 - david: unittests mostly done                                       
+| |/  
+| * 9b9e024 - 2024-12-11 17:36 - david: added diagrams                                              
+| *   61d1dfc - 2024-12-11 17:35 - david: Merge branch 'admin_system' of https://git.liacs.nl/softwa..
+| |\  
+| | * 5a5f927 - 2024-12-08 16:40 - Jixuan: I have connected the log in system and admin system. Manua..
+| | * fcc2ba4 - 2024-12-04 23:16 - Jixuan: I added the doc string of new function'add_admin'           
+| | * 1c9aaaf - 2024-12-02 23:47 - Jixuan: I added function of adding admin                            
+| | * 3fb1c20 - 2024-12-02 23:13 - Jixuan: I deleted a line (previous version closes the window after..
+| | * 7899f00 - 2024-11-19 01:01 - Jixuan: added two columns to doctor table                           
+| * | 3ab8946 - 2024-12-03 12:45 - david: approve doctor function added                               
+| * | dff9fcf - 2024-12-03 02:32 - david: approve_doctor added, yay                                   
+| |/  
+| * 202eb25 - 2024-12-02 19:39 - david: - cleaned and added a main function to the admin system - ..
+| * d7187e0 - 2024-11-30 14:48 - Jixuan: I changed the color                                         
+| * fcd0301 - 2024-11-29 21:09 - Jixuan: I put a search entry in the show_data window, so that we c..
+| * ea4ac32 - 2024-11-25 12:20 - david: just jixuan's code added                                    
+| * cac0551 - 2024-11-21 17:34 - david: certificate validation pretty much added, did some test op..
+| *   cd502f0 - 2024-11-21 17:33 - david: Merge remote-tracking branch 'origin/admin_system' into ad..
+| |\  
+| | * 2399a91 - 2024-11-19 00:50 - Jixuan: added two new columns to Doctor table                       
+| | * 10c7cc3 - 2024-11-19 00:43 - Jixuan: Jixuan: added small logic structure waiting to be filled in 
+| | *   3b3f321 - 2024-11-18 13:03 - Jixuan: Merge remote-tracking branch 'origin/admin_system' into ad..
+| | |\  
+| | * \   8f8adb9 - 2024-11-17 19:42 - Jixuan: Merge remote-tracking branch 'origin/admin_system' into ad..
+| | |\ \  
+| | * | | d2e1558 - 2024-11-12 23:41 - Jixuan: Jessie: Problem of patient interface still exists,I change..
+| | * | | 83c4ddd - 2024-11-09 22:53 - Jixuan: Jessie: Integrate the patient interface with the login sys..
+| | * | | 5e4e416 - 2024-11-09 18:23 - Jixuan: Jessie: Finished the draft version of docstring             
+| | * | | f52ef63 - 2024-11-09 17:56 - Jixuan: added some doc string                                       
+| | * | | 790e8f8 - 2024-11-09 12:25 - Jixuan: added some doc string                                       
+| | * | | 492a23c - 2024-11-05 17:07 - Jixuan: Revert "Changes in Log in System: when user register, syst..
+| | * | | ecfd4af - 2024-11-09 11:58 - Jixuan: added some doc string                                       
+| | * | | 209c82d - 2024-11-08 18:59 - Jixuan: Jixuan:just added a window and try to connect database, bu..
+| | * | | 3d014ec - 2024-11-05 23:32 - Jixuan: Jessie: added some doc String (unfinished yet)              
+| | * | | 500729d - 2024-11-05 18:26 - Jixuan: Changes in Log in System: when user register(both for pati..
+| | * | | 65d8325 - 2024-11-05 18:17 - Jixuan: Changes in Log in System: when user register(as patient) o..
+| | * | | 394e246 - 2024-11-05 18:07 - Jixuan: Changes in Log in System: when user register or reset the ..
+| | * | | 4f37366 - 2024-11-05 18:04 - Jixuan: Changes in Log in System: when user register or reset the ..
+| | * | | 810d72e - 2024-11-04 22:43 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+| | * | | 0382843 - 2024-11-05 17:59 - Jixuan: Changes in Log in System: when user register or reset the ..
+| | * | | 3f6a2e2 - 2024-11-04 23:19 - Jixuan: trial of commit to admin brunch                             
+| | * | | bef2c7b - 2024-11-04 20:31 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+| | * | | 4c91a58 - 2024-11-03 18:02 - Joris: Database was changed to solve problem with unconnected que..
+| | * | | 5b3c497 - 2024-11-03 15:58 - Jixuan: Add a .db file for register application as dictor role      
+| | * | | a43483a - 2024-11-04 23:40 - Jixuan: pass                                                        
+| | * | | 4ae11f1 - 2024-11-04 23:20 - Jixuan: Revert "trial of commit to admin brunch"                    
+| | * | | 29819fb - 2024-11-04 23:19 - Jixuan: trial of commit to admin brunch                             
+| | * | | a0c0e0a - 2024-11-04 22:43 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+| | * | | a6db873 - 2024-11-04 20:31 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+| | * | | 75dbebd - 2024-11-04 03:20 - Joris: Questionaire results can now be saved in the database.      
+| | * | | 617271f - 2024-11-04 02:37 - Joris: a detail changed to perfect the patient interface           
+| | * | | 6728aab - 2024-11-04 02:29 - Joris: 'Change personal information' interface added (is coupled ..
+| | * | | ccc054f - 2024-11-03 23:49 - Joris: Questionaire interface now functional. Writing results to ..
+| | * | | f6adbcd - 2024-11-03 19:05 - Joris: Buttons for each questionaire are now available on the que..
+| | * | | f76d3e1 - 2024-11-03 18:58 - Joris: Questionaire info now fetched from database. Next step: Bu..
+| | * | | e28f380 - 2024-11-03 18:12 - Joris: appointment time was added                                  
+| | * | | 8c2d936 - 2024-11-03 18:02 - Joris: Database was changed to solve problem with unconnected que..
+| | * | | 3e8f299 - 2024-11-02 22:59 - Joris: Interface was made dynamic, a problem with the database (q..
+| | * | | 472f8b3 - 2024-11-01 18:39 - Joris: basic screens added for 'questionaires' and 'change inform..
+| | * | | 4f32f1e - 2024-11-01 18:14 - Joris: Treatment notes interface is now also coupled to the datab..
+| | * | | f66c765 - 2024-11-01 16:50 - Joris: Treatment notes interface Piotrek added, not yet coupled t..
+| | * | | e705ff1 - 2024-11-01 16:12 - Joris: Personal information now also coupled to database.          
+| | * | | db04648 - 2024-11-01 16:02 - Joris: interface Jingbo added, the welcome text is now connected ..
+| | * | | 1b00537 - 2024-11-01 15:13 - Joris: now all necessary data can be pulled from the database, in..
+| | * | | 943dcc3 - 2024-11-01 14:47 - Joris: Fetching patient information from database, so this can la..
+| | * | | 98c9076 - 2024-11-01 10:48 - Joris: deleted an older version of patient interface to have a cl..
+| | * | | fe9f3c5 - 2024-11-03 15:58 - Jixuan: Add a .db file for register application as dictor role      
+| * | | | feaae41 - 2024-11-21 17:31 - david: certificate validation pretty much added, did some test op..
+| * | | |   da83f19 - 2024-11-20 13:56 - david: Merge branch 'master' of https://git.liacs.nl/software-dev..
+| |\ \ \ \  
+| * \ \ \ \   d1fa4ea - 2024-11-19 15:23 - david: Merge branch 'master' of https://git.liacs.nl/software-dev..
+| |\ \ \ \ \  
+| | |_|_|_|/  
+| |/| | | |   
+| * | | | | 15e51b1 - 2024-11-18 00:40 - david: added comments to explain the code                          
+| | |_|_|/  
+| |/| | |   
+| * | | | e6264ab - 2024-11-17 19:38 - david: added window to show pdf                                    
+| * | | |   3f25d35 - 2024-11-17 17:29 - david: Merge branch 'master' of https://git.liacs.nl/software-dev..
+| |\ \ \ \  
+| * \ \ \ \   adecd53 - 2024-11-16 18:35 - david: Merge branch 'master' of https://git.liacs.nl/software-dev..
+| |\ \ \ \ \  
+| | |_|_|_|/  
+| |/| | | |   
+| * | | | | a16df22 - 2024-11-09 22:30 - david: added normal user data table for admin to view with search..
+| * | | | | 3af899d - 2024-11-07 10:41 - david: added just the first window with nothing else for now of t..
+| * | | | | c8949fe - 2024-11-04 23:40 - Jixuan: pass                                                        
+| * | | | | d00b7d5 - 2024-11-04 03:20 - Joris: Questionaire results can now be saved in the database.      
+| | | | | | * 0a4dbe6 - 2025-01-02 13:18 - M.S. Paul: Unittests login interface functions: usr_sign_up, open_rol..
+| | |_|_|_|/  
+| |/| | | |   
+| | | | | | * a30ff96 - 2025-01-02 13:16 - M.S. Paul: Unittests doctor interface                                  
+| | | | | | * f8283ae - 2025-01-02 13:14 - M.S. Paul: doctor interface with proper code documentation             
+| | | | | | * 0c6ec21 - 2024-12-09 17:00 - M.S. Paul: Updated doctor interface                                    
+| | | | | | * 0eef639 - 2024-11-18 15:23 - Joris: Database replaced with a more up to date one from the mast..
+| | | | | | * 09ee2b1 - 2024-11-18 14:42 - M.S. Paul: Doctor interface                                            
+| | |_|_|_|/  
+| |/| | | |   
+| | | | | | * e9c2cfa - 2024-12-31 13:22 - J. Li: add docstring for scheduling_system                         
+| | | | | | * 71bb336 - 2024-12-01 13:56 - Joris: inserted values in database which were forgotten in the pr..
+| | | | | | * 3e26479 - 2024-12-01 12:20 - Joris: data inserted in new columns of database, same as on maste..
+| | | | | | * 94924c9 - 2024-12-01 11:47 - Joris: Database changed - same change as on master branch, to mak..
+| | | | | | * 393bcfd - 2024-11-26 10:47 - J. Li: Scheduling system ver.1.                                    
+| | | | | | * e465cf7 - 2024-11-19 23:40 - Piotr Wacław Lichota: A third version of scheduling generalization. Some bugs ar..
+| | | | | | * c7cde56 - 2024-11-11 12:29 - Piotr Wacław Lichota: I corrected some mistakes in the previous version of sched..
+| | | | | | * 20523db - 2024-11-11 12:27 - Piotr Wacław Lichota: Add new file                                                
+| | | | | | * b8ffdef - 2024-11-10 23:21 - Piotr Wacław Lichota: Here I upload my generalization of patient-doctor scheduli..
+| | |_|_|_|/  
+| |/| | | |   
+| | | | | | * 9f5c690 - 2024-12-28 01:16 - Piotr Lichota: Connecting scheduling system to the patient interface       
+| |_|_|_|_|/  
+|/| | | | |   
+* | | | | | f952534 - 2024-12-27 17:06 - Jixuan: I did small modification to the first function of login sy..
+* | | | | | 0ba9e3c - 2024-12-27 12:54 - Jixuan: Rename file: Log in System.py -> Log_in_System.py           
+* | | | | |   2c2786c - 2024-12-27 12:43 - Jixuan: Merge branch 'master' of git.liacs.nl:software-development..
+|\ \ \ \ \ \  
+| * \ \ \ \ \   fc0ee04 - 2024-12-27 11:24 - Jixuan: Merge branch 'master' of git.liacs.nl:software-development..
+| |\ \ \ \ \ \  
+* | | | | | | | 1509cd7 - 2024-12-27 12:38 - Jixuan: I added the docstring on the top of login system to keep t..
+* | | | | | | | a49ff67 - 2024-12-27 11:35 - Jixuan: Explanation of my last commit: I changed the function of s..
+* | | | | | | |   107e701 - 2024-12-27 11:24 - Jixuan: Merge branch 'master' of git.liacs.nl:software-development..
+|\ \ \ \ \ \ \ \  
+| |/ / / / / / /  
+|/| / / / / / /   
+| |/ / / / / /    
+| * | | | | | c4f8d56 - 2024-12-13 17:38 - Joris: diagrams for patient interface added.                       
+| * | | | | | 7f82bb6 - 2024-12-09 15:40 - Joris: Button scheduling system: role attribute added (0 = patien..
+| * | | | | | a3b95fd - 2024-12-08 17:42 - Piotr Wacław Lichota: Updating scheduling system. My attempt to connect the sche..
+| * | | | | | 5165449 - 2024-12-08 03:58 - Joris: Unittests patient interface have been made                  
+* | | | | | | 404634d - 2024-12-27 11:23 - Jixuan: changed the sending email function                          
+|/ / / / / /  
+* | | | | | f53d1d5 - 2024-12-05 23:22 - Jixuan: Add patient interface functionality                         
+* | | | | | 7398ac7 - 2024-12-05 15:08 - Joris: Doctring added to beginning of test file to explain the te..
+* | | | | | adb2e6a - 2024-12-05 14:58 - Joris: unittests database have been made.                          
+* | | | | | 166d8f2 - 2024-12-02 15:56 - Joris: bug fixed - adding the location and confirmed changed quer..
+* | | | | | 70edea6 - 2024-12-01 15:27 - Joris: tiny adjustment to make the function of 'scheduling_system..
+* | | | | | 1beb7d5 - 2024-12-01 14:57 - Joris: not only future appointments from the patient, but also fu..
+* | | | | | 0e3e152 - 2024-12-01 13:54 - Joris: Values inserted for entries forgotten in previous step + c..
+* | | | | | 19eef4c - 2024-12-01 12:19 - Joris: Data inserted in the new columns of the database (Location..
+* | | | | | 6776bd3 - 2024-12-01 11:40 - Joris: Database changed - added Location and Confirmed to appoint..
+* | | | | | 31fd4c3 - 2024-11-28 23:33 - Joris: An user interface added to change the password              
+* | | | | | 1ae7a9b - 2024-11-28 18:08 - Joris: Docstring 100% in patient interface.                        
+* | | | | | 642c17a - 2024-11-27 19:08 - Joris: 75% of the docstrings in patient_interface were added.      
+* | | | | | 77c7ef3 - 2024-11-25 13:33 - Joris: added buttons (change password, schedule appointment) to p..
+* | | | | | 83507ba - 2024-11-24 12:29 - Joris: Patient interface and login restored from last weeks versi..
+| |_|_|_|/  
+|/| | | |   
+* | | | | 7ef4ea8 - 2024-11-20 13:30 - Jixuan: added two columns to doctor table (DB and sql files are ch..
+| |_|_|/  
+|/| | |   
+* | | | c56bd47 - 2024-11-19 01:09 - Jixuan: added two columns to doctor table                           
+* | | | 9b233bc - 2024-11-19 01:03 - Jixuan: added two columns to doctor table                           
+* | | | 6db6aaf - 2024-11-19 01:01 - Jixuan: added two columns to doctor table                           
+* | | | 99190fe - 2024-11-19 00:50 - Jixuan: added two new columns to Doctor table                       
+* | | | 0cd4d1d - 2024-11-19 00:43 - Jixuan: Jixuan: added small logic structure waiting to be filled in 
+* | | | 7559ca4 - 2024-11-18 00:40 - david: added comments to explain the code                          
+* | | | 2442827 - 2024-11-17 19:38 - david: added window to show pdf                                    
+* | | | e525b4b - 2024-11-12 23:41 - Jixuan: Jessie: Problem of patient interface still exists,I change..
+* | | | 13cacb2 - 2024-11-09 22:53 - Jixuan: Jessie: Integrate the patient interface with the login sys..
+* | | | cce060e - 2024-11-09 18:23 - Jixuan: Jessie: Finished the draft version of docstring             
+* | | | 3886d24 - 2024-11-09 17:56 - Jixuan: added some doc string                                       
+* | | | e0541df - 2024-11-09 12:25 - Jixuan: added some doc string                                       
+* | | | 33820f2 - 2024-11-05 17:07 - Jixuan: Revert "Changes in Log in System: when user register, syst..
+* | | | e6cc849 - 2024-11-09 11:58 - Jixuan: added some doc string                                       
+* | | | 96b78d8 - 2024-11-08 18:59 - Jixuan: Jixuan:just added a window and try to connect database, bu..
+* | | | fe3f72c - 2024-11-05 23:32 - Jixuan: Jessie: added some doc String (unfinished yet)              
+* | | | 6a25847 - 2024-11-05 18:26 - Jixuan: Changes in Log in System: when user register(both for pati..
+* | | | 8bec78e - 2024-11-05 18:17 - Jixuan: Changes in Log in System: when user register(as patient) o..
+* | | | 0f7b9ad - 2024-11-05 18:07 - Jixuan: Changes in Log in System: when user register or reset the ..
+* | | | 24aab04 - 2024-11-05 18:04 - Jixuan: Changes in Log in System: when user register or reset the ..
+* | | | b62f589 - 2024-11-04 22:43 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+* | | | 7e108fa - 2024-11-05 17:59 - Jixuan: Changes in Log in System: when user register or reset the ..
+* | | | ebd32a6 - 2024-11-04 23:19 - Jixuan: trial of commit to admin brunch                             
+* | | | bf6b6eb - 2024-11-04 20:31 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+* | | | f97b3a1 - 2024-11-03 18:02 - Joris: Database was changed to solve problem with unconnected que..
+* | | | 4843cb4 - 2024-11-03 15:58 - Jixuan: Add a .db file for register application as dictor role      
+* | | | 97e5518 - 2024-11-04 23:40 - Jixuan: pass                                                        
+* | | | 4a27782 - 2024-11-04 23:20 - Jixuan: Revert "trial of commit to admin brunch"                    
+* | | | 7fd46ff - 2024-11-04 23:19 - Jixuan: trial of commit to admin brunch                             
+* | | | b88e4a5 - 2024-11-04 22:43 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+* | | | 4bf2f2f - 2024-11-04 20:31 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+* | | | 181e1ee - 2024-11-04 03:20 - Joris: Questionaire results can now be saved in the database.      
+* | | | 2a13c40 - 2024-11-04 02:37 - Joris: a detail changed to perfect the patient interface           
+* | | | b56886c - 2024-11-04 02:29 - Joris: 'Change personal information' interface added (is coupled ..
+* | | | e1c4f52 - 2024-11-03 23:49 - Joris: Questionaire interface now functional. Writing results to ..
+* | | | 7c8c350 - 2024-11-03 19:05 - Joris: Buttons for each questionaire are now available on the que..
+* | | | 18c746e - 2024-11-03 18:58 - Joris: Questionaire info now fetched from database. Next step: Bu..
+* | | | 7f00996 - 2024-11-03 18:12 - Joris: appointment time was added                                  
+* | | | dfb465f - 2024-11-02 22:59 - Joris: Interface was made dynamic, a problem with the database (q..
+* | | | ca36935 - 2024-11-01 18:39 - Joris: basic screens added for 'questionaires' and 'change inform..
+* | | | f638087 - 2024-11-01 18:14 - Joris: Treatment notes interface is now also coupled to the datab..
+* | | | dff7cc5 - 2024-11-01 16:50 - Joris: Treatment notes interface Piotrek added, not yet coupled t..
+* | | | d4dd311 - 2024-11-01 16:12 - Joris: Personal information now also coupled to database.          
+* | | | eb130ac - 2024-11-01 16:02 - Joris: interface Jingbo added, the welcome text is now connected ..
+* | | | e44354f - 2024-11-09 22:30 - david: added normal user data table for admin to view with search..
+* | | | 15bf6d8 - 2024-11-07 10:41 - david: added just the first window with nothing else for now of t..
+* | | | c955604 - 2024-11-04 03:20 - Joris: Questionaire results can now be saved in the database.      
+* | | | 2c002d5 - 2024-11-18 15:07 - Joris: Problem with NULL values when registering new patients is ..
+| |_|/  
+|/| |   
+* | | 94207d6 - 2024-11-17 15:53 - Joris: questionaires updated                                       
+* | | cf2cc84 - 2024-11-17 14:16 - Joris: patient interface can again be tested independedly of login 
+* | | 2b8b7a6 - 2024-11-17 14:13 - Joris: changed login to not open a new window when loading patien..
+* | | b03705f - 2024-11-17 13:48 - Joris: removed old files which are currently not used for a clean..
+* | | 9f5abd2 - 2024-11-17 13:41 - Joris: second attempt to restore database                          
+* | | f68b2db - 2024-11-17 13:07 - Joris: Patient interface is restored, changes to database reverse..
+| |/  
+|/|   
+* | 5ae8b9d - 2024-11-11 15:51 - Joris: ER-diagram updated with latest change                       
+* | 7ada22e - 2024-11-11 15:46 - Joris: Requested changes made to doctor table in database: Approv..
+* | 9dce736 - 2024-11-09 22:53 - Jixuan: Jessie: Integrate the patient interface with the login sys..
+* | d2204a8 - 2024-11-09 18:23 - Jixuan: Jessie: Finished the draft version of docstring             
+* | 349de27 - 2024-11-09 17:56 - Jixuan: added some doc string                                       
+* | fd4240b - 2024-11-09 12:25 - Jixuan: added some doc string                                       
+* | 6b07c13 - 2024-11-05 17:07 - Jixuan: Revert "Changes in Log in System: when user register, syst..
+* | a667fc4 - 2024-11-09 11:58 - Jixuan: added some doc string                                       
+* | c875a21 - 2024-11-08 18:59 - Jixuan: Jixuan:just added a window and try to connect database, bu..
+* | 231e7d9 - 2024-11-05 23:32 - Jixuan: Jessie: added some doc String (unfinished yet)              
+* | b4c2ca9 - 2024-11-05 18:26 - Jixuan: Changes in Log in System: when user register(both for pati..
+* | 7e8e380 - 2024-11-05 18:17 - Jixuan: Changes in Log in System: when user register(as patient) o..
+* | 5469a7c - 2024-11-05 18:07 - Jixuan: Changes in Log in System: when user register or reset the ..
+* | 12d47dd - 2024-11-05 18:04 - Jixuan: Changes in Log in System: when user register or reset the ..
+* | 2f12c55 - 2024-11-04 22:43 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+* | d391daa - 2024-11-05 17:59 - Jixuan: Changes in Log in System: when user register or reset the ..
+* | 569379c - 2024-11-04 23:19 - Jixuan: trial of commit to admin brunch                             
+* | d41574c - 2024-11-04 20:31 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+* | 961385d - 2024-11-03 18:02 - Joris: Database was changed to solve problem with unconnected que..
+* | 41d0451 - 2024-11-03 15:58 - Jixuan: Add a .db file for register application as dictor role      
+* | 74e475e - 2024-11-04 23:40 - Jixuan: pass                                                        
+* | e5700d2 - 2024-11-04 03:20 - Joris: Questionaire results can now be saved in the database.      
+* | fde2a6c - 2024-11-04 23:20 - Jixuan: Revert "trial of commit to admin brunch"                    
+* | f31426e - 2024-11-04 23:19 - Jixuan: trial of commit to admin brunch                             
+* | 704b62d - 2024-11-04 22:43 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+* | fea5ba8 - 2024-11-04 20:31 - Jixuan: Modified by Jessie: changed the queries of making a user t..
+* |   85a813a - 2024-11-04 16:19 - Jixuan: Merge remote-tracking branch 'origin/master'                
+|\ \  
+| * | 7a167af - 2024-11-04 03:20 - Joris: Questionaire results can now be saved in the database.      
+| * | 51bec7a - 2024-11-04 02:37 - Joris: a detail changed to perfect the patient interface           
+| * | 197362e - 2024-11-04 02:29 - Joris: 'Change personal information' interface added (is coupled ..
+| * | 06c705f - 2024-11-03 23:49 - Joris: Questionaire interface now functional. Writing results to ..
+| * | a28d720 - 2024-11-03 19:05 - Joris: Buttons for each questionaire are now available on the que..
+| * | 724f1f3 - 2024-11-03 18:58 - Joris: Questionaire info now fetched from database. Next step: Bu..
+| * | 29036de - 2024-11-03 18:12 - Joris: appointment time was added                                  
+| * | de5c1e5 - 2024-11-03 18:02 - Joris: Database was changed to solve problem with unconnected que..
+| * | c4de4b2 - 2024-11-02 22:59 - Joris: Interface was made dynamic, a problem with the database (q..
+| * | 9164c4d - 2024-11-01 18:39 - Joris: basic screens added for 'questionaires' and 'change inform..
+| * | 6c35710 - 2024-11-01 18:14 - Joris: Treatment notes interface is now also coupled to the datab..
+| * | a68b9f3 - 2024-11-01 16:50 - Joris: Treatment notes interface Piotrek added, not yet coupled t..
+| * | 07e4591 - 2024-11-01 16:12 - Joris: Personal information now also coupled to database.          
+| * | 7dd1a7e - 2024-11-01 16:02 - Joris: interface Jingbo added, the welcome text is now connected ..
+| * | 931e69b - 2024-11-01 15:13 - Joris: now all necessary data can be pulled from the database, in..
+| * | 2847bb3 - 2024-11-01 14:47 - Joris: Fetching patient information from database, so this can la..
+| * | e28e148 - 2024-11-01 10:48 - Joris: deleted an older version of patient interface to have a cl..
+| |/  
+* / fee9ff8 - 2024-11-03 15:58 - Jixuan: Add a .db file for register application as dictor role      
+|/  
+* 15e216b - 2024-10-31 10:55 - J. Nouwens: Delete data insert.py                                       
+* 1ffba40 - 2024-10-31 10:47 - Joris: The database now contains data, also SQL code of DB was ad..
+* 5283c64 - 2024-10-30 13:19 - Joris: The finnished (empty) database was added.                   
+* 9188d1a - 2024-10-29 01:21 - Jixuan: the function of sending verification codes                  
+*   b2b05e1 - 2024-10-29 01:18 - Jixuan: Merge remote-tracking branch 'origin/master'                
+|\  
+| * 03915d6 - 2024-10-28 01:32 - J. Li: Upload New File                                             
+| * 7533467 - 2024-10-28 01:31 - J. Li: Delete patient_treatment_without_info_change.py             
+| * bde763d - 2024-10-28 01:30 - J. Li: Upload New File                                             
+| * e991c86 - 2024-10-28 01:15 - J. Li: Upload New File                                             
+| * 50eebda - 2024-10-28 01:14 - J. Li: Delete user_navi2.py                                        
+| * f1a5e1a - 2024-10-28 01:14 - J. Li: Upload New File                                             
+| * adec485 - 2024-10-27 22:44 - P.W. Lichota: Interface for patient's treatment notes                     
+* | 0f1a73c - 2024-10-29 01:17 - Jixuan: Revert "the function of sending verification codes"         
+* | 181d167 - 2024-10-29 01:15 - Jixuan: the function of sending verification codes                  
+|/  
+* 4479539 - 2024-10-27 13:36 - Jixuan: add file type and size limitation                           
+* aec0a2e - 2024-10-27 13:31 - Jixuan: Revert "added a line"                                       
+* 32b37e9 - 2024-10-27 13:29 - Jixuan: added a line                                                
+* d451ff5 - 2024-10-27 12:27 - Jixuan: added a line                                                
+* 1d84aec - 2024-10-26 13:29 - david: doctor file upload in login system                          
+* 47ba3b5 - 2024-10-24 16:36 - Jixuan: newest version of main.py file                              
+*   ec49baa - 2024-10-24 16:32 - Jixuan: Merge remote-tracking branch 'origin/master'                
+|\  
+| * 4e571f8 - 2024-10-24 13:12 - M.S. Paul: Upload New File                                             
+* | 2a46809 - 2024-10-24 16:29 - Jixuan: newest version of main.py file                              
+* | 3f7966f - 2024-10-24 16:27 - Jixuan: newest version of main.py file                              
+* | acbb2b2 - 2024-10-24 13:48 - Jixuan: forth draft version from Jixuan                             
+* | db883ec - 2024-10-24 13:48 - Jixuan: forth draft version from Jixuan                             
+|/  
+* 5e3ee24 - 2024-10-22 23:26 - Jixuan: forth draft version from Jixuan                             
+* 0bce7ab - 2024-10-22 14:07 - Jixuan: third draft version from Jixuan                             
+* 7be9a16 - 2024-10-22 00:23 - Jixuan: second draft version from Jixuan 1.frame 1 and 4 2.change ..
+* 7d514f5 - 2024-10-21 23:02 - Jixuan: first draft version from Jixuan 1.Home/Login window/fram 1..
+* 41ca845 - 2024-10-18 14:18 - Jixuan: Add front-end example login system                          
+* 29accc5 - 2024-10-18 14:15 - Jixuan: Add log in system backend example                           
+* dbe47c8 - 2024-09-16 22:32 - J. Yao: Initial commit                                              
